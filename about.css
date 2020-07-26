@@ -1,0 +1,37 @@
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-decoration: solid;
+}
+
+p {
+    text-align: justify;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container.row {
+    display: table;
+}
+
+.container .row .column {
+    display: table-cell;
+    padding: 5px;
+    text-align: justify;
+}

@@ -1,0 +1,22 @@
+     button {
+         margin: 35px 280px;
+         height: 50px;
+         width: 150px;
+         font-size: 18px;
+         outline: none;
+         cursor: pointer;
+         font-weight: bold;
+         background: rgb(8, 110, 206);
+         border-radius: 5px;
+         border: none;
+         transition: .5s;
+     }
+     
+     button a {
+         text-decoration: none;
+         color: rgb(247, 240, 243);
+     }
+     
+     button:hover {
+         background: green;
+     }

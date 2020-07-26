@@ -1,0 +1,152 @@
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.425)), url("martha.jpg");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: arial;
+            margin: 0;
+            padding: 0;
+        }
+        
+        @media screen and(max-width:959px) {
+            .dropdown {
+                width: 100%;
+            }
+            nav {
+                width: 100%;
+            }
+        }
+        
+        .dropdwn {
+            margin: 0 auto;
+        }
+        
+        nav {
+            height: 60px;
+            background: #0082e0;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
+            position: relative;
+        }
+        
+        label.logo {
+            padding: 5px 0 0 80px;
+            width: 150px;
+            height: auto;
+            font-family: sans-serif;
+            font-size: 35px;
+            color: #ffffff;
+            float: left;
+            font-weight: bolder;
+        }
+        
+        nav ul {
+            padding: 0;
+            margin: 0;
+            float: right;
+            margin-right: 30px;
+        }
+        
+        nav ul li {
+            background: #0082e0;
+            position: relative;
+            list-style: none;
+            display: inline-block;
+        }
+        
+        nav ul li a {
+            display: block;
+            padding: 0 15px;
+            color: white;
+            text-decoration: none;
+            line-height: 60px;
+            font-size: 20px;
+            transition: .5s;
+        }
+        
+        nav ul li a.active,
+        nav ul li a:hover {
+            background: #1fac15;
+            border-radius: 20px;
+        }
+        
+        nav ul ul {
+            position: absolute;
+            top: 60px;
+            line-height: 20px !important;
+            display: none;
+        }
+        
+        nav ul li:hover>ul {
+            display: block;
+        }
+        
+        nav ul ul li {
+            width: 150px;
+            float: none;
+            display: list-item;
+            position: relative;
+            line-height: 20px !important;
+        }
+        
+        nav ul ul ul li {
+            position: relative;
+            top: -60px;
+            left: 150px;
+        }
+        
+        .body {
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: sans-serif;
+            user-select: none;
+        }
+        
+        .body h1 {
+            font-size: 70px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            width: 900px;
+        }
+        
+        .body h2 {
+            font-size: 65px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            width: 885px;
+            margin-top: 10px;
+        }
+        
+        .body .buttons {
+            margin: 35px 280px;
+        }
+        
+        .buttons button {
+            height: 50px;
+            width: 150px;
+            font-size: 18px;
+            outline: none;
+            cursor: pointer;
+            font-weight: bold;
+            background: rgb(8, 110, 206);
+            border-radius: 5px;
+            border: none;
+            transition: .5s;
+        }
+        
+        .body .buttons button a {
+            text-decoration: none;
+            color: rgb(247, 240, 243);
+        }
+        
+        .buttons .btn {
+            margin-left: 25px;
+        }
+        
+        .buttons button:hover {
+            background: green;
+        }

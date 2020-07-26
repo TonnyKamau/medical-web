@@ -1,0 +1,89 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("med.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-form {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(10, 120, 163, 0.589);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.signup-form h1 {
+    margin-top: 100px;
+    font-family: cursive;
+    color: #fff;
+    font-size: 40px;
+}
+
+.signup-form input {
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: "montserrat", sans-serif;
+    background: rgb(230, 215, 196);
+}
+
+.signup-form input:hover {
+    transform: scale(0.99);
+}
+
+.txtb {
+    margin: 20px 0;
+    background: rgba(26, 25, 25, 0);
+    border-radius: 6px;
+}
+
+.signup-form input.signup-btn {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: #0d4b43;
+    color: #fff;
+    border-radius: 44px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.signup-btn:hover {
+    transform: scale(0.99);
+}
+
+.signup-form a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "montserrat", sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+
+.signup-form a:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(10px/2);
+    left: calc(50% - 50px);
+    border-radius: 50%;
+}
